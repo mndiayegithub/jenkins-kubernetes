@@ -29,9 +29,9 @@ spec:
               memory: "500Mi"
               cpu: "500m"
           ports:
-            - name: httpport
+            - name: http-port
               containerPort: 8080
-            - name: jnlpport
+            - name: jnlp-port
               containerPort: 50000
           livenessProbe:
             httpGet:
